@@ -50,7 +50,7 @@ get_prebuilts() {
 	RV_INTEGRATIONS_APK="${TEMP_DIR}/${rv_integrations_url##*/}"
 	log "Integrations: ${rv_integrations_url##*/}"
 
-	rv_patches=$(gh_req https://api.github.com/repos/inota00/revanced-patches/releases/latest -)
+	rv_patches=$(gh_req https://api.github.com/repos/inotia00/revanced-patches/releases/latest -)
 	rv_patches_changelog=$(echo "$rv_patches" | json_get 'body' | sed 's/\(\\n\)\+/\\n/g')
 	rv_patches_dl=$(json_get 'browser_download_url' <<<"$rv_patches")
 	RV_PATCHES_JSON="${TEMP_DIR}/patches-$(json_get 'tag_name' <<<"$rv_patches").json"
