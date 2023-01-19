@@ -1,4 +1,4 @@
-CLI: revanced-cli-2.19.0-all.jar  
+CLI: revanced-cli-2.20.0-all.jar  
 Integrations: app-release-unsigned.apk  
 Patches: revanced-patches-2.153.6.jar  
 
