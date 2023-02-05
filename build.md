@@ -1,27 +1,18 @@
 CLI: revanced-cli-2.20.0-all.jar  
 Integrations: app-release-unsigned.apk  
-Patches: revanced-patches-2.156.4.jar  
+Patches: revanced-patches-2.158.4.jar  
 
 YouTube
 ==
-- add `hide-live-chat-button` patch https://github.com/revanced/revanced-patches/pull/869
-- add `hide-next-button` , `hide-prev-button` patches (player controller)  https://github.com/inotia00/ReVanced_Extended/issues/23
-- fix: `hide suggestions` setting removes playlists shelf from new layout (a/b test) https://github.com/inotia00/ReVanced_Extended/issues/180
-- fix: bug related to swipe gesture https://github.com/inotia00/ReVanced_Extended/issues/176 https://github.com/inotia00/ReVanced_Extended/issues/178
-- refactor: brightness values for swipe gestures are now remembered (same as Vanced's swipe gesture brightness) https://github.com/inotia00/ReVanced_Extended/issues/154
-
+- add `disable-shorts-player-pip` patch (Experimental Flags)
+- fix: `Hide preview comment` setting hides Chapters area in video info panel
+- refactor: `Hide shorts player subscriptions button` setting now hides the red subscribe button, too
 - crowdin translation update
-`Arabic`, `Chinese Simplified`, `French`, `Indonesian`, `Japanese`, `Russian`, `Vietnamese`
-
-YouTube Music
-==
-- crowdin translation update
-`Hungarian`, `Thai`
+`Arabic`,  `French`, `Indonesian`, `Russian`, `Spanish`
 
 ETC
 ==
-- add support YouTube v18.02.37
-- cleanup
+- add suport YouTube v18.03.42
 
 ※ Compatible ReVanced Manager: v0.0.53
 ※ If you want to contribute to the translation, refer below
@@ -31,7 +22,7 @@ ETC
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.02.37  
+YouTube: 18.04.35  
 
 Install [Vanced Microg](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
