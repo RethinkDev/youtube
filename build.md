@@ -1,20 +1,25 @@
 CLI: revanced-cli-2.20.0-all.jar  
-Integrations: app-release-unsigned.apk  
-Patches: revanced-patches-2.158.4.jar  
+Integrations: revanced-integrations-0.95.6.apk  
+Patches: revanced-patches-2.159.6.jar  
 
 YouTube
 ==
-- add `disable-shorts-player-pip` patch (Experimental Flags)
-- fix: `Hide preview comment` setting hides Chapters area in video info panel
-- refactor: `Hide shorts player subscriptions button` setting now hides the red subscribe button, too
+- add `Hide shorts player join button` settings https://github.com/inotia00/ReVanced_Extended/issues/151#issuecomment-1423486747
+- refactor: `Hide info panels` setting now removes information panels in Shorts player https://github.com/inotia00/ReVanced_Extended/issues/151#issuecomment-1423486747
+- refactor: `Disable pip mode in shorts player` (Experimental Flags) setting
+- refactor(youtube/general-ads): move settings to correct preference screens
 - crowdin translation update
-`Arabic`,  `French`, `Indonesian`, `Russian`, `Spanish`
+`Arabic`, `French`, `German`, `Greek`, `Italian`, `Japanese`, `Korean`, `Polish`, `Portuguese (Brazilian)`, `Russian`, `Spanish`, `Vietnamese`
 
 ETC
 ==
-- add suport YouTube v18.03.42
+- add suport YouTube v18.04.43, v18.05.35
+- dropped support for YouTube outside of v18.04.43, v18.05.35
 
-※ Compatible ReVanced Manager: v0.0.53
+- build: update kotlin dependencies
+- refactor: remove unnecessary `locale-config-fix` patch
+
+※ Compatible ReVanced Manager: v0.0.54
 ※ If you want to contribute to the translation, refer below
 
 [Crowdin translation]
@@ -22,7 +27,7 @@ ETC
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.04.35  
+YouTube: 18.05.35  
 
 Install [Vanced Microg](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
